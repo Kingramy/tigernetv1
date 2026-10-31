@@ -1,0 +1,40 @@
+# Python Bytecode & Cache
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Satellite Data Archives & Raw Dumps (>50MB / >100MB exceeds GitHub limits)
+*.nat
+*.zip
+*.tar
+*.tar.gz
+*.nc
+*.hdf
+*.h5
+
+# Model Checkpoints & Large Weights (>100MB exceeds GitHub limits)
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+checkpoints/*
+!checkpoints/README.md
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS / IDE / Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+
